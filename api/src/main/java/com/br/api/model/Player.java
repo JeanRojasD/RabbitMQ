@@ -2,6 +2,7 @@ package com.br.api.model;
 
 public class Player {
 
+    // Classe model do jogador
     private String name;
     private Integer coordX;
     private Integer coordY;
