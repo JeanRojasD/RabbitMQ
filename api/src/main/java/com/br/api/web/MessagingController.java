@@ -19,7 +19,7 @@ public class MessagingController {
   @Autowired
   private SimpMessagingTemplate simpMessagingTemplate;
 
-  //Método que monitora o movimento do jogador
+  //Método que monitora o movimento do player
   @MessageMapping("/move")
   @SendTo("/topic/move")
   public Player send(@Payload Player player)  {
